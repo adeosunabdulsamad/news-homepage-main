@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+*{
+    font-family: 'Inter';
+    box-sizing: border-box;
+ }
+ p{
+  font-size: 15px;
+  font-weight: 400;
+ }
+ h2{
+   font-weight: 700;
+ }
+ body{
+    background-color: hsl(36, 100%, 99%);
+    align-items: center;
+ }
+ #content{
+  max-width: 90%;
+  margin: auto;
+ }
+ #navigation{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ #Nav-links{
+   display: flex;
+   justify-content: space-around;
+   width: 30%;
+ }
+ #Nav-links li{
+   list-style: none;
+ }
+ /* This is for the navigation bar */
+ #Nav-links a{
+   text-decoration: none;
+   color: hsl(240, 100%, 5%);
+ }
+ #Nav-links a:hover{
+   color: hsl(35, 77%, 62%);
+ }
+ /*This is for the main section of the webpage */
+ #Bright{
+   display: flex;
+ }
+ #Bright article{
+   width: 100%;
+   height: 100%;
+ }
+ #Bright h1{
+   font-size: 60px;
+   text-shadow:
+       -1px 0 hsl(240, 100%, 5%), 0 1px hsl(240, 100%, 5%), 1px 0 hsl(240, 100%, 5%), 0 -1px hsl(240, 100%, 5%),
+       -1px -1px hsl(240, 100%, 5%), 1px 1px hsl(240, 100%, 5%), -1px 1px hsl(240, 100%, 5%), 1px -1px hsl(240, 100%, 5%);
+       width: 50%;
+   float: left;
+   width: 50%;
+ }
+ #Bright div{
+   padding-top: 30px;
+   line-height: 200%;
+ }
+ #button{
+   background-color: hsl(5, 85%, 63%);
+   color: hsl(36, 100%, 99%);
+   border: none;
+   float: left;
+   font-size: 30px;
+   padding: 10px 20px 10px 20px;
+   letter-spacing: 3px;
+   margin-top: 30%;
+ }
+ #button:hover{
+  background-color: hsl(240, 100%, 5%);
+ }
+ main{
+   width: 150%;
+   padding-right: 2%;
+ }
+ #resize{
+  width: 100%;
+ }
+ #Resizing{
+   height: 100%;
+   width: 100%;
+ }
+ aside{
+   background-color: hsl(240, 100%, 5%);
+   color: hsl(36, 100%, 99%);
+   margin-top: 30px;
+   align-items: center;
+   justify-content: center;
+ }
+ aside hr{
+  align-self: center;
+  width: 100%;
+  margin-top: 0px;
+ }
+ aside h2{
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: hsl(35, 77%, 62%);
+  margin: 20px 20px 20px 50px;
+  text-shadow:
+       -1px 0 hsl(35, 77%, 62%), 0 1px hsl(35, 77%, 62%), 1px 0 hsl(35, 77%, 62%), 0 -1px hsl(35, 77%, 62%),
+       -1px -1px hsl(35, 77%, 62%), 1px 1px hsl(35, 77%, 62%), -1px 1px hsl(35, 77%, 62%), 1px -1px hsl(35, 77%, 62%);
+ }
+ aside div{
+  margin-left: 2rem;
+  margin-right: 2rem;
+ }
+ aside a{
+  text-decoration: none;
+  color: hsl(36, 100%, 99%);
+ }
+ aside a:hover{
+  color: hsl(35, 77%, 62%);
+ }
+#article{
+   display: flex;
+   padding-top: 5rem;
+}
+#article article{
+   display: flex;
+   width: 30%;
+   padding-left: 2%;
+   margin-right: 2%;
+}
+#article a{
+  text-decoration: none;
+  color: hsl(240, 100%, 5%);
+}
+#article a:hover{
+  color: hsl(5, 85%, 63%);
+}
+
+#article article img{
+   height: 100%;
+   width: 100%;
+}
+#article h2{
+  color: hsl(233, 8%, 79%);
+  font-size: 40px;
+  font-weight: bolder;
+}
+.img{
+  padding-right: 1em;
+}
+.line{
+  line-height: 2em;
+}
+.attribution{
+  margin-top: 70px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
